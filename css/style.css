@@ -8,6 +8,10 @@ body{
     display:grid;
     place-items: center;
     font-family: 'Share Tech Mono', monospace;
+    background-image: url("https://c.pxhere.com/photos/ab/c9/black_blue_branches_dark_dusk_evening_glow_horizon-1260004.jpg!d"); 
+    background-position: center 100%; 
+    background-size: cover; 
+    /*backdrop-filter: blur(1px);*/
 }
 
 .container_panel{
@@ -17,7 +21,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #333;
+    /*background-color: #232c3f;*/
 }
 .countdown{
     display: flex;
@@ -35,26 +39,36 @@ h1{
     color: white;
     font-size: 40px;
     padding: 30px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 30px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 p{
     display: grid;
     place-items: center;
-    border: solid 1px #fff;
-    height: 100px;
-    width: 100px;
+    border: solid 2px #fff;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     color: white;
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: bold;
-    background-color: #ff748c;
+    background-color: #70a9ca;
 }
 span{
     display: block;
     padding: 10px;
     text-align: center;
-    color: #74ffe7;
+    color: #c5e9ff;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 .panel_final{
     position: absolute;
@@ -66,7 +80,7 @@ span{
     place-items: center;
     transform: translateY(-100%);
     transition: ease-in-out 0.5s;
-    background-color: #333;
+    background-color: #06132f;
 }
 .panel_final h1{
     text-align: center;
