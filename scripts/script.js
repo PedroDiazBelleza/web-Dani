@@ -10,7 +10,7 @@ $contenedor_historia = document.getElementById('contenedor_historia');
 $espacio_3 = document.querySelector('.espacio_3');
 $body = document.querySelector('body');
 //Fecha final
-const fechaFinal = new Date('Mar 9, 2024 00:00:00').getTime();
+const fechaFinal = new Date('Mar 9, 2024 00:14:30').getTime();
 //1709279400000
 
 let intervalo = setInterval(function(){
